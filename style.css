@@ -246,3 +246,70 @@ header {
   letter-spacing: 0.32px;
   text-align: start;
 }
+.about_me {
+  display: flex;
+  gap: 5%;
+}
+.about_me img {
+  width: fit-content;
+  max-height: 500px;
+}
+.about_me_right_content h1 {
+  color: var(--Primary-Black, #000);
+
+  font-family: Sora;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+  margin: 0;
+}
+.about_me_right_content b {
+  color: var(--Primary-Black, #000);
+
+  font-family: Sora;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+}
+.about_me_right_content p {
+  color: var(--Zinc-500, #71717a);
+
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  max-width: 40vw;
+}
+.my_projects {
+  display: flex;
+  padding: 60px 80px;
+  flex-direction: column;
+  text-align: center;
+  background: var(--Primary-Black, #000);
+}
+.my_projects h1 {
+  color: var(--Primary-White, #fff);
+
+  font-family: Sora;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+}
+.my_projects b {
+  color: var(--Primary-White, #fff);
+
+  font-family: Sora;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+}
